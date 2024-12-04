@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3b1bc2c-f0bd-4490-9e98-331cdfa4d87e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CSE485LAB-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/.idea/tlunews.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/Models/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/controllers/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/controllers/NewsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/tlunews.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/news/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/news/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/news/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/views/home/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tlunews/views/news/detail.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\Laragon\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pk4kUzcEQ7AfJ3f5h2T2GvzVQU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Laragon/laragon/www/CSE485LAB-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.24807.17" />
+        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.24807.17" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3b1bc2c-f0bd-4490-9e98-331cdfa4d87e" name="Changes" comment="" />
+      <created>1733296882968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733296882968</updated>
+      <workItem from="1733296884036" duration="1258000" />
+      <workItem from="1733298323573" duration="13000" />
+      <workItem from="1733298343783" duration="173000" />
+      <workItem from="1733298524585" duration="65000" />
+      <workItem from="1733298600455" duration="150000" />
+      <workItem from="1733298760992" duration="448000" />
+      <workItem from="1733299237973" duration="1541000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tlunews/controllers/NewsController.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
