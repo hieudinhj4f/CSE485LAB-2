@@ -3,12 +3,12 @@ class News{
     private $title;
     private $content;
     private $date;
-    private $author;
-    public function __construct($title, $content, $date, $author){
+    private $id;
+    public function __construct($title, $content, $date, $id){
         $this->title = $title;
         $this->content = $content;
         $this->date = $date;
-        $this->author = $author;
+        $this->id = $id;
     }
 
     /**
@@ -62,17 +62,17 @@ class News{
     /**
      * @return mixed
      */
-    public function getAuthor()
+    public function getId()
     {
-        return $this->author;
+        return $this->id;
     }
 
     /**
-     * @param mixed $author
+     * @param mixed $id
      */
-    public function setAuthor($author)
+    public function setId($id)
     {
-        $this->author = $author;
+        $this->id = $id;
     }
 
 
