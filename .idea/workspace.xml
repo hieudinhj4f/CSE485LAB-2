@@ -5,31 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3b1bc2c-f0bd-4490-9e98-331cdfa4d87e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CSE485LAB-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/.idea/tlunews.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/Models/News.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/controllers/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/controllers/NewsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/tlunews.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/news/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/news/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/views/admin/news/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/views/home/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/views/news/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/controllers/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/controllers/NewsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/models/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/models/News.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/views/admin/dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/views/admin/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/views/admin/news/add.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/views/admin/news/edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/views/admin/news/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/views/home/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tlunews/CSE485LAB-2/tlunews/views/news/detail.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Laragon/laragon/www/CSE485LAB-2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "NguyenDinhHieu",
+    "last_opened_file_path": "D:/Laragon/laragon/www/CSE485LAB-2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.add.doc.comment.for.fields.panel.add.php.doc.for.all.properties": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,22 +78,14 @@
       <workItem from="1733298524585" duration="65000" />
       <workItem from="1733298600455" duration="150000" />
       <workItem from="1733298760992" duration="448000" />
-      <workItem from="1733299237973" duration="1541000" />
+      <workItem from="1733299237973" duration="2153000" />
+      <workItem from="1733471162607" duration="109000" />
+      <workItem from="1733471467989" duration="9000" />
+      <workItem from="1733473578298" duration="2044000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tlunews/controllers/NewsController.php</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
