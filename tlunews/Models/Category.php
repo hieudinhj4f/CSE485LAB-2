@@ -1,11 +1,11 @@
 <?php
 class Category{
     private $name;
-    private $posts;
+    private $id;
 
-    public function __construct($name, $posts){
+    public function __construct($id, $name){
+        $this->id = $id;
         $this->name = $name;
-        $this->posts = $posts;
     }
 
     /**
@@ -27,17 +27,19 @@ class Category{
     /**
      * @return mixed
      */
-    public function getPosts()
+    public function getId()
     {
-        return $this->posts;
+        return $this->id;
     }
 
     /**
-     * @param mixed $posts
+     * @param mixed $id
      */
-    public function setPosts($posts)
+    public function setId($id): void
     {
-        $this->posts = $posts;
+        $this->id = $id;
     }
+
+
 
 }

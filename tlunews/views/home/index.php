@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,19 +12,24 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-body-tertiary ">
-            <div class="container-fluid shadow-lg p-3">
-                <a href="" class="navbar-brand fs-3 ">TLU</a>
+        <nav class="navbar bg-body-tertiary " >
+            <div class="container-fluid shadow-lg p-3" style="background: #3c63a8">
+                <a href="" class="navbar-brand fs-3 fw-bolder text-white" >TLU</a>
             </div>
         </nav>
     </header>
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" >
-            <div class="container-fluid shadow-sm ">
+            <div class="container-fluid shadow-sm " >
                 <div class="navbar-collapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav m-auto ">
                         <?php
-
+                            foreach ($category as $Category){
+                        ?>
+                        <li class="nav-items mt-3 mb-4 m-4">
+                            <a href=""><?= $Category->getName() ?></a>
+                        </li>
+                        <?php }
                         ?>
                     </ul>
                 </div>
