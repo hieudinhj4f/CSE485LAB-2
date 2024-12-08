@@ -66,6 +66,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 /*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;
 select * from categories
 
+Select * from categories
+
 -- Dữ liệu mẫu cho bảng categories
 INSERT INTO categories (name) VALUES (N'Finacial')
 /**/

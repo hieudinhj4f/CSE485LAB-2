@@ -4,15 +4,22 @@
         private $Username ;
         private $Password ;
         private $Database ;
+        private $conn;
 
-        public Function getConnection($Servername,$Username,$Password,$Database){
+        public function __construct(){
+            $this->Servername = DB_HOST;
+            $this->Username = DB_USER;
+            $this->Password = DB_PASS;
+            $this->Database = DB_NAME;
             try{
-                $conn = new PDO("mysql:host=$Servername;dbname=$Database", $Username, $Password);
-                $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                echo 'Successfully connected to the database';
+                $this->conn = new PDO("mysql:host=$this->Servername;dbname=$this->Database", $this->Username, $this->Password);
+                $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             }
             catch (Exception $e){
-                echo "Error: " . $e->getMessage();
+                $this->conn = null;
             }
+        }
+        public Function getConnection(){
+            return $this->conn;
         }
     }
