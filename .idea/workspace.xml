@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3b1bc2c-f0bd-4490-9e98-331cdfa4d87e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tlunews/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tlunews/data/Data.php" afterDir="false" />
+    <list default="true" id="f3b1bc2c-f0bd-4490-9e98-331cdfa4d87e" name="Changes" comment="Fix HomeControler and Index">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlunews/Models/Catagory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlunews/Models/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/tlunews/Models/News.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlunews/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/tlunews/controllers/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlunews/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tlunews/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlunews/tlunews.sql" beforeDir="false" afterPath="$PROJECT_DIR$/tlunews/tlunews.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tlunews/views/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tlunews/views/home/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +19,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hieudinhj4f&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hieudinhj4f/CSE485LAB-2.git&quot;,
+    &quot;accountId&quot;: &quot;c358c786-ae34-404c-a6d0-72cc2062e9fd&quot;
+  }
+}</component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\Laragon\laragon\bin\php\php-8.1.10-Win32-vs16-x64\php.exe" />
   <component name="ProjectColorInfo">{
@@ -59,6 +69,18 @@
       <recent name="D:\Laragon\laragon\www\CSE485LAB-2\tlunews" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="tlunews.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/tlunews/tlunews.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.tlunews.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,22 +111,84 @@
       <workItem from="1733483670190" duration="728000" />
       <workItem from="1733484610362" duration="654000" />
       <workItem from="1733493322573" duration="738000" />
-      <workItem from="1733494095256" duration="7845000" />
+      <workItem from="1733494095256" duration="10766000" />
+      <workItem from="1733561196447" duration="1756000" />
+      <workItem from="1733565838774" duration="2523000" />
+      <workItem from="1733569596006" duration="189000" />
+      <workItem from="1733578929338" duration="9047000" />
+      <workItem from="1733631289570" duration="14319000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix HomeControler and Index">
+      <option name="closed" value="true" />
+      <created>1733645239019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733645239019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
+    <option name="RECENT_FILTERS">
       <map>
-        <entry key="MAIN">
+        <entry key="Branch">
           <value>
-            <State />
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="NguyenDinhHieu" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/TranQuangAnh" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix connection" />
+    <MESSAGE value="Merge bCSE485LAB-2 into NguyenDinhHieu&#10;fix connection" />
+    <MESSAGE value="Fix HomeControler and Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix HomeControler and Index" />
   </component>
 </project>
