@@ -2,13 +2,47 @@
 class News{
     private $title;
     private $content;
-    private $date;
+    private $created_at;
     private $id;
-    public function __construct($title, $content, $date, $id){
+    private $image;
+    public function __construct( $id ,$title, $content,$image , $created_at){
         $this->title = $title;
         $this->content = $content;
-        $this->date = $date;
+        $this->created_at = $created_at;
         $this->id = $id;
+        $this->image = $image;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCreatedAt()
+    {
+        return $this->created_at;
+    }
+
+    /**
+     * @param mixed $created_at
+     */
+    public function setCreatedAt($created_at): void
+    {
+        $this->created_at = $created_at;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * @param mixed $image
+     */
+    public function setImage($image): void
+    {
+        $this->image = $image;
     }
 
     /**

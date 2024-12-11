@@ -27,7 +27,9 @@
                             foreach ($category as $Category){
                         ?>
                         <li class="nav-items mt-3 mb-4 m-4">
-                            <a href=""><?= $Category->getName() ?></a>
+                            <button class="btn btn-outline-secondary">
+                                <a href="" class="text-decoration-none"><?= $Category->getName() ?></a>
+                            </button>
                         </li>
                         <?php }
                         ?>
@@ -43,21 +45,26 @@
                         <p class="fs-5">NEW POST</p>
                     </a>
                 </div>
-                <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-                    <div class="container-fluid">
-                        <div class="d-flex">
-                            <p class="fs-4 fst-italic fw-bolder">The Ultimate Showdown: Champions Clash</p>
-                        </div>
-                    </div>
-                    <div class="container-fluid py-5">
-                        <div class="row">
-                            <div class="col">
-                                <img src="https://th.bing.com/th/id/OIP.lWT5a_iKF3uBHpj1Q9h9BwHaE6?rs=1&pid=ImgDetMain"
-                                     class="" alt="">
+                <?php
+                    foreach ($news as $newsItem){
+                ?><div class="p-5 mb-4 bg-body-secondary rounded-3">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="fs-4 fst-italic fw-bolder"><?= $newsItem->getTitle()?></p>
+                                        <p><?= $newsItem->getContent()?></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="Article 3">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                <?php
+                    }
+                ?>
+
+
             </div>
         </main>
     </body>
